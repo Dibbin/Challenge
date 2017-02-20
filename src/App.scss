@@ -1,0 +1,13 @@
+$light-gray: #616982;
+
+.App {
+  text-align: center;
+}
+
+.search {
+  background-color: $light-gray;
+  background-image: url(assets/svg/search.svg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-left: 30px
+}

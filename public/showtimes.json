@@ -1,0 +1,44 @@
+{
+  "date": "2/20/2017",
+  "theatre": {
+    "name": "The Super Great Movie Theatre",
+    "address": "1234 E. Entertainment Way, Denver, CO 80204"
+  },
+  "movies": [
+    {
+      "title": "Guardians of the Galaxy",
+      "showtimes": ["3:00 PM", "3:30 PM", "7:15 PM", "7:45 PM"],
+      "rating": "PG-13",
+      "description": "Compellingly embrace empowered e-business after user friendly intellectual capital. Interactively actualize front-end processes with effective convergence. Synergistically deliver performance based methods of empowerment whereas distributed expertise.\n\n Efficiently enable enabled sources and cost effective products. Completely synthesize principle-centered information after ethical communities. Efficiently innovate open-source infrastructures via inexpensive materials.",
+      "poster": "asdf.jpg"
+    },
+    {
+      "title": "Hercules",
+      "showtimes": ["3:00 PM", "3:30 PM", "7:15 PM", "7:45 PM"],
+      "rating": "PG-13",
+      "description": "Compellingly embrace empowered e-business after user friendly intellectual capital. Interactively actualize front-end processes with effective convergence. Synergistically deliver performance based methods of empowerment whereas distributed expertise.\n\n Efficiently enable enabled sources and cost effective products. Completely synthesize principle-centered information after ethical communities. Efficiently innovate open-source infrastructures via inexpensive materials.",
+      "poster": "asdf.jpg"
+    },
+    {
+      "title": "Lucy",
+      "showtimes": ["7:15 PM", "7:45 PM", "9:45 PM", "10:15 PM"],
+      "rating": "R",
+      "description": "Compellingly embrace empowered e-business after user friendly intellectual capital. Interactively actualize front-end processes with effective convergence. Synergistically deliver performance based methods of empowerment whereas distributed expertise.\n\n Efficiently enable enabled sources and cost effective products. Completely synthesize principle-centered information after ethical communities. Efficiently innovate open-source infrastructures via inexpensive materials.",
+      "poster": "asdf.jpg"
+    },
+    {
+      "title": "Planes: Fire & Rescue",
+      "showtimes": ["3:00 PM", "3:30 PM", "7:15 PM", "7:45 PM"],
+      "rating": "G",
+      "description": "Compellingly embrace empowered e-business after user friendly intellectual capital. Interactively actualize front-end processes with effective convergence. Synergistically deliver performance based methods of empowerment whereas distributed expertise.\n\n Efficiently enable enabled sources and cost effective products. Completely synthesize principle-centered information after ethical communities. Efficiently innovate open-source infrastructures via inexpensive materials.",
+      "poster": "asdf.jpg"
+    },
+    {
+      "title": "The Hobbit: War of Five Armies",
+      "showtimes": ["3:00 PM", "3:30 PM", "7:15 PM", "7:45 PM"],
+      "rating": "PG-13",
+      "description": "Compellingly embrace empowered e-business after user friendly intellectual capital. Interactively actualize front-end processes with effective convergence. Synergistically deliver performance based methods of empowerment whereas distributed expertise.\n\n Efficiently enable enabled sources and cost effective products. Completely synthesize principle-centered information after ethical communities. Efficiently innovate open-source infrastructures via inexpensive materials.",
+      "poster": "asdf.jpg"
+    }
+  ]
+}

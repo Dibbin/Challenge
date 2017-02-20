@@ -1,18 +1,54 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import fetch from 'isomorphic-fetch';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      date: "",
+      theatre: {
+        name: "",
+        address: ""
+      },
+      movies: []
+    }
+  }
+
+  componentWillMount() {
+    fetch('/showtimes.json').then((response) => {
+      // console.log("fetch success");
+      return response.json();
+    }).then((showtimes)=>{
+      console.log("fetch success", showtimes, this);
+      this.setState(showtimes);
+    }).catch(()=>{
+      console.log("fetch error");
+    })
+  }
+
   render() {
+    console.log("render()", this.state);
+    const {
+      date,
+      theatre,
+      movies
+    } = this.state;
+
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <input className="search" placeholder="Search..."/>
+        <br/>
+        {theatre.name}
+        <br/>
+        {theatre.address}
+        <br/>
+        <h2>SHOWINGS {date}</h2>
+        <ul>
+          {movies.map(function(movie, i){
+            return <li key={i} >{movie.title}</li>;
+          })}
+        </ul>
       </div>
     );
   }
