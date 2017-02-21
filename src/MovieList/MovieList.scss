@@ -1,7 +1,11 @@
-$light-gray: #616982;
+$light-gray: rgb(61, 69, 82);
+$background: rgb(37, 29, 30);
+$red: rgb(222, 7, 67);
 
 .MovieList {
   text-align: center;
+  //background-color: $background;
+  //color: white;
 }
 
 .search {
@@ -10,4 +14,14 @@ $light-gray: #616982;
   background-repeat: no-repeat;
   background-size: auto 100%;
   padding-left: 30px
+}
+
+.theatre {
+  background-color: $red;
+}
+
+.arrowLeft {
+  width: 25px;
+  height: 25px;
+  transform: scaleX(-1);
 }
